@@ -9,7 +9,7 @@ body{
 .wrapper{
     background-color: hsl(224, 36%, 15%);
     /* height: 700px; */
-    margin-top: 20%;
+    margin-top: 15%;
     max-width: 400px;
     border-radius: 10px;
     padding-top: 10px;
@@ -42,27 +42,42 @@ body{
     margin: 5px;
 }
 
-.calc-buttons button{
+button{
     background-color: hsl(222, 26%, 31%) ;
     width: 50px;
     height: 50px;
     border: 0;
     border-radius: 50%;
-    /* color:white; */
-    outline:none
-
-    /* position: relative;
-    top: 50%;
-    left: 50%; */  
+    outline:none; 
+}
+.calc-buttons button{
+    outline:none;
 }
 
-.calc-buttons .num-button{
+.num-button{
     color: hsl(224, 36%, 15%);;
     background: cornsilk;
+    
 }
 
-.op-button{
+.result-button{
+    width: 100%;
+    border-radius: 5px;
     color: cornsilk;
+    background: rgb(44, 172, 44);
+    
+}
+
+
+.op-button, .dot-button{
+    color: cornsilk;
+    
+}
+
+.clear-button, .delete-button{
+    background: rgb(210, 74, 74);
+    color: cornsilk;
+    
 }
 
 

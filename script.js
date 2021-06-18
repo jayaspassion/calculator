@@ -31,16 +31,16 @@ window.onload = () => {
     </div>
     </div>
         <div class=" row calc-buttons">    
-        <div class="col"><button class="">.</button></div>
+        <div class="col"><button class="dot-button">.</button></div>
         <div class="col"><button class="num-button">0</button></div>
-        <div class="col"><button class="">%</button></div>
+        <div class="col"><button class="op-button">%</button></div>
         <div class="col"><button class="op-button">*</button></div>
     </div>
     </div>
         <div class=" row calc-buttons">    
-        <div class="col"><button class=""><-</button></div>
+        <div class="col"><button class="delete-button"><-</button></div>
         <div class="col"><button class="clear-button">C</button></div>
-        <div class="col-6"><button class="">=</button></div>
+        <div class="col-6"><button class="result-button">=</button></div>
     </div>
 
     `;
