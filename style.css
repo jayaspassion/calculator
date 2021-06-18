@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(222, 26%, 31%) ;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.wrapper{
+    background-color: hsl(224, 36%, 15%);
+    /* height: 700px; */
+    margin-top: 20%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+    
+
+}
+
+.display{
+    
+    background: white;
+    border-radius: 10px;
+    min-height: 70px;
+    margin: 0;
+    display: block;
+    
+    
+}
+
+.display div{
+     
+    min-height: 30px;
+    margin: 5px;
+    text-align: right;
+}
+
+.logo{
+    color: cornsilk;
+    margin: 5px;
+}
+
+.calc-buttons button{
+    background-color: hsl(222, 26%, 31%) ;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    /* color:white; */
+    outline:none
+
+    /* position: relative;
+    top: 50%;
+    left: 50%; */  
+}
+
+.calc-buttons .num-button{
+    color: hsl(224, 36%, 15%);;
+    background: cornsilk;
+}
+
+.op-button{
+    color: cornsilk;
+}
+
+
+
+
+.calc-buttons{
+    margin: 25px 0px 25px 0px;
+}
+
+
+
