@@ -18,15 +18,19 @@ body {
 .display {
   background: white;
   border-radius: 10px;
-  min-height: 70px;
+  /* min-height: 70px; */
   margin: 0;
   display: block;
+  position: relative;
+  padding: 1px 0px 0px 0px;
+  
 }
 
 .display div {
-  min-height: 30px;
-  margin: 5px;
+  min-height: 45px;
+  margin: 10px;
   text-align: right;
+  /* border: 1px solid black; */
 }
 
 .logo {
@@ -71,4 +75,8 @@ button {
 
 .calc-buttons {
   margin: 25px 0px 25px 0px;
+}
+
+.current-op{
+  font-size: 1.5em;
 }
