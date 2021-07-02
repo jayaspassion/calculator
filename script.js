@@ -35,7 +35,7 @@ innerElem.innerHTML = `
     </div>
     </div>
         <div class=" row calc-buttons">    
-        <div class="col"><button class="dot-button">.</button></div>
+        <div class="col"><button class="num-button">.</button></div>
         <div class="col"><button class="num-button">0</button></div>
         <div class="col"><button onclick="opModButtonClicked()" class="op-button mod">%</button></div>
         <div class="col"><button onclick="opMulButtonClicked()" class="op-button mul">X</button></div>
